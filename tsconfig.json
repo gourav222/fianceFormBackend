@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    // "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "module": "ESNext",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    // "module": "ESNext",
+    "moduleResolution": "Node"
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["*.ts"]
+}
